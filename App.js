@@ -1,20 +1,18 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import React from 'react';
+import {View} from 'react-native';
 
-export default function App() {
+const App = () => {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+    <View style={{flex:1}}>
+      <View style={{flex:1 ,backgroundColor:"red"}}></View>
+      <View style={{flex:1 ,backgroundColor:"green"}}></View>
+      <View style={{flex:1 ,backgroundColor:"blue"}}></View>
     </View>
   );
-}
+};
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+// Web에서는 flexDirection의 default 값은 Row
+// native에서는 flexDirection의 default 값은 Column
+
+//native에서는 width나 height값을 대부분 적용하지 않는다
+export default App;
