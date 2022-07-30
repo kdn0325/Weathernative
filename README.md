@@ -14,7 +14,7 @@
 
 ##
 
-## --> [Link](https://ecommerce-app-beta.vercel.app)
+## --> [Link]
 
 ## [![Repository Card](https://widget.realdeveloper.pro/api/card?user=kdn0325&repo=Weathernative)](https://github.com/kdn0325/Weathernative')
 
